@@ -256,7 +256,9 @@
         },
         "EBS": {
             "Type": "AWS::EC2::Volume",
-            "Properties": {},
+            "Properties": {
+              "Size":"40"
+            },
             "Metadata": {
                 "AWS::CloudFormation::Designer": {
                     "id": "4f030c1b-d680-4e20-84da-a0c992782b35"
